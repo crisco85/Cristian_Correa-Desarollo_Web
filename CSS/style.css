@@ -65,7 +65,11 @@ nav ul li:hover{
 
 /* */
 
+.nav-link{
 
+    color: rgb(12, 51, 47);
+    font-weight: 500;
+}
 
 main{
     /*background-color: rgb(202, 245, 241);*/
