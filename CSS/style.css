@@ -79,40 +79,7 @@ main{
     height: 100%;
 }
 
-/*
-main.inicio{
-    background-color: rgb(202, 245, 241);
-    
 
-}
-
-main.continentes{
-    background-image: url(https://okdiario.com/img/2019/08/20/-como-son-los-continentes-del-planeta-tierra_-655x368.jpg);
-    background-repeat: no-repeat;
-    background-position:top;
-}
-
-main.paises{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b1/Mapa_mundi_blanco.PNG);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: inherit;
-}
-
-main.ciudades{
-    background-image: url(https://img.freepik.com/vector-gratis/silueta-horizonte-ilustracion_53876-78786.jpg?size=626&ext=jpg);
-    background-repeat: no-repeat;
-    background-size: inherit;
-    background-position: center;
-}
-
-main.contacto{
-    background-image: url(https://images.vexels.com/media/users/3/154431/isolated/lists/1b0612bca0cd99911b17c88392db70ca-icono-de-contacto-de-soporte-al-cliente.png);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-position: right;
-}
-*/
 
 h1{
     color: blue;
@@ -805,5 +772,5 @@ section article .seccionrecomendaciones{
 /*--------Inicio Media Querys----------*/
 
 @media (max-width: 768px) {
-    
+
 }
