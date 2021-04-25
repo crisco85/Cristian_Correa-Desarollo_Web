@@ -20,7 +20,7 @@ header{
     /*background-color:  rgb(160, 241, 178);*/
     background: linear-gradient(to top, #74ebd5, #acb6e5);
     display: flex;
-    width: 100%;
+    /*width: 100%;*/
     justify-content: space-between;
     align-items: center;
 }
@@ -131,6 +131,16 @@ aside ul{
     height: 170px;
 
     image-orientation: flip;
+}
+
+.inicio__ciudades article{
+    align-items: center;
+    justify-content: center;
+}
+
+.w-100{
+    width: 70vw;
+    height: 60vh;
 }
 
 /* SASS - Aplicando Operaciones*/
@@ -823,5 +833,17 @@ section article .seccionrecomendaciones{
 /*--------Inicio Media Querys----------*/
 
 @media (max-width: 768px) {
+
+    header{
+        background: linear-gradient(to top, #74ebd5, #acb6e5);
+    }
+
+    main{
+        background: linear-gradient(to top, #a8ff78, #78ffd6);
+    }
+
+    footer{
+        background: linear-gradient(to top, #00c9ff, #92fe9d);
+    }
 
 }
