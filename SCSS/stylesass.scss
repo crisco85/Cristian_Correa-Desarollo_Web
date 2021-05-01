@@ -103,8 +103,12 @@ h2:hover{
     justify-content: center;
 }
 
+.carousel-item{
+    margin: 2rem;
+}
+
 .w-100{
-    width: 70vw;
+    width: 60vw;
     height: 60vh;
 }
 
@@ -232,38 +236,41 @@ form input, form textarea{
 
 /* -----------------Paginas Paises----------------------------*/
 
-.paises h1{
-    margin-bottom: 3rem;
-}
+.paises{
+    h1{
+        margin-bottom: 3rem;
+    }
+    
+    h2{
+        font-size: 4rem;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.paises h2{
-    font-size: 4rem;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    h3{
+        font-size: 3rem;
+        font-weight: 600;
+    }
 
-.paises h3{
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-.paises h4{
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
+    h4{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
 }
 
 .seccionvideo{
     margin: 4rem;
+
+    img{
+        width: 3rem;
+        height: 3rem;
+        margin: 0.5rem;
+    }
 }
 
-.seccionvideo img{
-    width: 3rem;
-    height: 3rem;
-    margin: 0.5rem;
-}
 
 .seccionmusica{
     margin: 4rem;
@@ -313,6 +320,8 @@ form input, form textarea{
     height: 100%;
     margin: 2rem;
     padding: 2rem;
+    align-items: center;
+    justify-items: center;
 }
 
 .continentes h2{
@@ -387,38 +396,43 @@ form input, form textarea{
 
 /*--------INICIO Pagina Experiencias-------------*/
 
-.experiencia h2{
-    font-size: 4rem;
-    font-weight: 600;
-    margin: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.experiencia{
+    h2{
+        font-size: 4rem;
+        font-weight: 600;
+        margin: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    
+    h4{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    p{
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: cursive;
+        color: rgb(23, 44, 44);
+        font-weight: 600;
+        margin: 2.5rem;  
+    }
 }
 
-.experiencia h3{
-    font-size: 3rem;
-    font-weight: 600;
-}
 
-.experiencia h4{
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
-}
-
-.experiencia p{
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: cursive;
-    color: rgb(23, 44, 44);
-    font-weight: 600;
-    margin: 2.5rem;
-}
-
-.seccionrecomendaciones{
-    margin: 4rem;
+.seccionrecomendaciones img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
 }
 
 /*--------FIN Pagina Experiencias-------------*/
