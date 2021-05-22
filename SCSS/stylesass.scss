@@ -77,14 +77,14 @@ h1{
     /*font-family: 'Open Sans', sans-serif;
     font-weight: bold;*/
     font-family: 'Baloo Thambi 2', cursive;
-    font-size: 3.5rem;
+    font-size: 3.7rem;
     padding: 1rem;
 }
 
-$h2size : 2.5rem;
+$h2size : 3rem;
 
 h2{
-    color: rgb(91, 67, 247);
+    color: rgb(79, 58, 219);
     font-family: 'Baloo Thambi 2', cursive;
     font-size: $h2size;
     margin: 15px;
@@ -103,22 +103,19 @@ h2:hover{
     justify-content: center;
 }
 
-.carousel-item{
-    margin: 2rem;
-}
-
 .w-100{
-    width: 60vw;
-    height: 60vh;
+    width: 65vw;
+    height: 65vh;
 }
 
 .experiencias{
 
     .experiencias__imagen{
-        display: flex;
+        align-items: center;
         justify-items: center;
         justify-content: center;
-        align-content: center;
+        margin: 1rem;
+        padding: 0.5rem;
         margin: 1rem;
         width: 30vw;
         height: 30vh;  
@@ -139,6 +136,7 @@ h2:hover{
 
     .experiencias__descripcion p{
         font-size: 1.2rem;
+        padding: 1.5rem;
     }
 
 }
@@ -183,18 +181,6 @@ footer ul li{
     margin: 15px;
 }
 
-/* SASS - Aplicando Operaciones*/
-$redes: ( 
-        facebook: #062c49,
-        youtube:  #bdcef3,
-        instagram: #e0cdc4
-); 
-
-@each $red, $color in $redes {
-   .#{$red} {
-       border: solid 2px $color;
-   }
-}
 
 span{
     font-size: 1.3rem;
@@ -208,31 +194,36 @@ form{
     height: 500px;
     /*background-color: rgb(133, 124, 124);*/
     justify-content: space-around;
+    justify-items: center;
     align-items: center;
-    padding: 50px;
-}
+    padding: 5rem;
 
-form button{
-    background-color: rgb(4, 19, 13);
-    color: white;
-    border-radius: 0.5rem;
-    padding: 5px 10px;
-    border: none;
+    button{
+        background-color: rgb(4, 19, 13);
+        color: white;
+        border-radius: 0.5rem;
+        padding: 5px 10px;
+        border: none;
+        margin: 2rem; 
+    }
+
+    label{
+        font-size: 1.5rem;  
+    }
+
+    input, form textarea{
+        background-color:rgb(49, 97, 91);
+        padding: 0.5rem;
+        border-radius: 0.7rem;
+        margin-left: 1.5rem;
+        color: rgb(202, 245, 241);
+    }
     
+    div{
+        margin: 1.5rem;
+    }
 }
 
-form label{
-    font-size: 2rem;
-    
-}
-
-form input, form textarea{
-    background-color:rgb(49, 97, 91);
-    padding: 0.5rem;
-    border-radius: 0.7rem;
-    margin-left: 1.5rem;
-    color: rgb(202, 245, 241);
-}
 
 /* -----------------Paginas Paises----------------------------*/
 
@@ -259,6 +250,14 @@ form input, form textarea{
         font-size: 2.5rem;
         font-weight: 600;
     }
+
+    
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .seccionvideo{
@@ -271,90 +270,105 @@ form input, form textarea{
     }
 }
 
-
 .seccionmusica{
     margin: 4rem;
-}
 
-.seccionmusica img{
-    width: 3rem;
-    height: 3rem;
-    margin: 0.5rem;
+    img{
+        width: 3rem;
+        height: 3rem;
+        margin: 0.5rem;
+    }
 }
 
 .bandera{
     display: flex;
-    align-items: center;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
     width: 80%;
     height: 70%;
     padding: 0.5rem;
+    margin: 1rem;
 }
 
 .seccionhistoriaydato{
     margin: 4rem;
+
+    img {
+        width: 3rem;
+        height: 3rem;
+        margin: 0.5rem;
+    }
 }
 
-.seccionhistoriaydato img{
-    width: 3rem;
-    height: 3rem;
-    margin: 0.5rem;
-}
 
 .paises p{
     text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     font-size: 1.2rem;
     font-family: cursive;
     color: rgb(23, 44, 44);
-    font-weight: 600;
+    font-weight: 400;
     margin: 2rem;
+    padding: 1rem;
 }
 
 /*--------FIN Pagina Paises-------------*/
 
 /*--------INICIO Pagina Continentes-------------*/
+article{
+    padding: 1.5rem;
+}
 
-.continentes .mapa{
+.mapacontinente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
-    margin: 2rem;
-    padding: 2rem;
-    align-items: center;
-    justify-items: center;
 }
 
-.container .col-sm .titulo{
-    
-    justify-content: space-around;
-    justify-items: center;
-    align-items: center;
+.continentes{
+
+    h2{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        font-size: 4rem;
+    }
+
+    h3{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    h4{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    p{
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: cursive;
+        color: rgb(23, 44, 44);
+        font-weight: 400;
+        margin: 2rem;
+    }
+
+    .video{
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: space-evenly;
+
+    }
 }
 
-.continentes h2{
-    text-align: center;
-    justify-content: center
-}
-
-.continentes h3{
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-.continentes h4{
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
-}
-
-.continentes p{
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: cursive;
-    color: rgb(23, 44, 44);
-    font-weight: 600;
-    margin: 2rem;
-}
 
 /*--------FIN Pagina Continentes-------------*/
 
@@ -390,7 +404,7 @@ form input, form textarea{
     font-size: 1.2rem;
     font-family: cursive;
     color: rgb(23, 44, 44);
-    font-weight: 600;
+    font-weight: 400;
     margin: 2rem;
 }
 
@@ -425,8 +439,9 @@ form input, form textarea{
         font-size: 1.2rem;
         font-family: cursive;
         color: rgb(23, 44, 44);
-        font-weight: 600;
-        margin: 2.5rem;  
+        font-weight: 400;
+        margin: 2.5rem;
+        padding: 1.5rem;  
     }
 }
 
