@@ -250,14 +250,14 @@ form input, form textarea {
   align-items: center;
   justify-items: center; }
 
+.container .col-sm .titulo {
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center; }
+
 .continentes h2 {
-  font-size: 4rem;
-  font-weight: 600;
-  margin: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
+  text-align: center;
+  justify-content: center; }
 
 .continentes h3 {
   font-size: 3rem;
