@@ -13,7 +13,8 @@ html {
   box-sizing: border-box; }
 
 header {
-  background: linear-gradient(to top, #74ebd5, #acb6e5);
+  /*background: linear-gradient(to top, #74ebd5, #acb6e5);*/
+  background: linear-gradient(to top, #fceabb, #f8b500);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,14 +51,14 @@ nav ul li {
   font-size: 1.25rem; }
 
 main {
-  /*background-color: rgb(202, 245, 241);*/
-  /*background: linear-gradient(to bottom, #4ca1af, #c4e0e5);*/
-  background: linear-gradient(to top, #a8ff78, #78ffd6);
+  background-color: #f2f3e9;
+  /*background-color: rgb(121, 238, 228);*/
+  /*background: linear-gradient(to top, #a8ff78, #78ffd6);*/
   width: 100%;
   height: 100%; }
 
 h1 {
-  color: blue;
+  color: #30303a;
   text-align: center;
   text-decoration-line: underline;
   /*font-family: 'Open Sans', sans-serif;
@@ -67,7 +68,7 @@ h1 {
   padding: 1rem; }
 
 h2 {
-  color: #4f3adb;
+  color: #211f2e;
   font-family: 'Baloo Thambi 2', cursive;
   font-size: 3rem;
   margin: 15px;
@@ -78,13 +79,16 @@ h2 {
 h2:hover {
   font-size: 3.3rem; }
 
+h3 {
+  color: #211f2e; }
+
 .inicio__ciudades article {
   align-items: center;
   justify-content: center; }
 
 .w-100 {
-  width: 65vw;
-  height: 65vh; }
+  width: 100vw;
+  height: 55vh; }
 
 .experiencias .experiencias__imagen {
   align-items: center;
@@ -110,34 +114,46 @@ h2:hover {
   font-size: 1.2rem;
   padding: 1.5rem; }
 
-.paisesunicos .paisesunicos__videos {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  margin: 1rem;
-  justify-content: space-around; }
-
-.paisesunicos .paisesunicos__videos h3 {
-  margin: 1.5rem;
-  font-size: medium; }
+.paisesunicos {
+  padding: 2rem; }
+  .paisesunicos .paisesunicos__videos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 1rem;
+    justify-content: space-around; }
+  .paisesunicos .paisesunicos__videos h3 {
+    margin: 1.5rem;
+    font-size: medium; }
+  .paisesunicos a {
+    color: #211f2e; }
 
 ul {
   color: #033d27; }
 
 footer {
-  background: linear-gradient(to top, #00c9ff, #92fe9d);
-  text-align: right;
+  /*background: linear-gradient(to top, #00c9ff, #92fe9d);*/
+  background: linear-gradient(to bottom, #fceabb, #f8b500);
+  text-align: center;
   width: 100%;
   height: 100%; }
 
 footer ul {
-  list-style-type: none; }
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: flex-end; }
 
 footer ul li {
   display: inline-block;
   padding: 30px 0;
   margin: 15px; }
+
+.footertexto {
+  color: ghostwhite;
+  font-size: medium;
+  font-weight: 600;
+  background-color: #f08c09; }
 
 span {
   font-size: 1.3rem;
@@ -145,20 +161,19 @@ span {
 
 form {
   display: flex;
-  flex-direction: column;
-  height: 500px;
   /*background-color: rgb(133, 124, 124);*/
-  justify-content: space-around;
+  justify-content: center;
   justify-items: center;
   align-items: center;
-  padding: 5rem; }
+  text-align: center;
+  width: 100%; }
   form button {
     background-color: #04130d;
     color: white;
     border-radius: 0.5rem;
     padding: 5px 10px;
     border: none;
-    margin: 2rem; }
+    margin: 1rem; }
   form label {
     font-size: 1.5rem; }
   form input, form form textarea {
@@ -168,7 +183,17 @@ form {
     margin-left: 1.5rem;
     color: #caf5f1; }
   form div {
-    margin: 1.5rem; }
+    margin: 0.5rem; }
+  form .formtitulo {
+    margin: 2.5rem;
+    text-align: center; }
+  form .col-md-auto {
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    padding: 0.5rem;
+    margin: 0.5rem; }
 
 /* -----------------Paginas Paises----------------------------*/
 .paises h1 {
@@ -190,6 +215,10 @@ form {
   font-size: 2.5rem;
   font-weight: 600; }
 
+.tiulo {
+  margin: 2rem;
+  padding: 1.5rem; }
+
 .mapa {
   display: flex;
   justify-content: center;
@@ -201,6 +230,10 @@ form {
     width: 3rem;
     height: 3rem;
     margin: 0.5rem; }
+
+iframe {
+  width: 100%;
+  height: 100%; }
 
 .seccionmusica {
   margin: 4rem; }
@@ -280,6 +313,9 @@ article {
   justify-items: center;
   justify-content: space-evenly; }
 
+.historiaydatos {
+  padding: 2rem; }
+
 /*--------FIN Pagina Continentes-------------*/
 /*--------INICIO Pagina Ciudades-------------*/
 .hotel {
@@ -348,10 +384,3 @@ article {
 
 /*--------FIN Pagina Experiencias-------------*/
 /*--------Inicio Media Querys----------*/
-@media (max-width: 768px) {
-  header {
-    background: linear-gradient(to top, #74ebd5, #acb6e5); }
-  main {
-    background: linear-gradient(to top, #a8ff78, #78ffd6); }
-  footer {
-    background: linear-gradient(to top, #00c9ff, #92fe9d); } }
