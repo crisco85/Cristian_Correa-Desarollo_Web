@@ -16,7 +16,6 @@ html{
 }
 
 header{
-    /*background: linear-gradient(to top, #74ebd5, #acb6e5);*/
     background: linear-gradient(to top, #fceabb, #f8b500);
     display: flex;
     justify-content: space-between;
@@ -35,9 +34,6 @@ header{
 
 nav{
     color: rgb(57, 50, 100);
-    /*font-family: 'Yantramanav', sans-serif;
-    font-style: normal;
-    font-weight: 1000;*/
     font-family: 'Overlock', cursive;
     font-weight: 900;
     font-style: normal;
@@ -46,9 +42,6 @@ nav{
 nav ul {
     display: flex;
     list-style-type: none;
-
-    /*margin: 30px;*/
-
 }
 
 nav ul li{
@@ -65,8 +58,6 @@ nav ul li{
 
 main{
     background-color: #f2f3e9;
-    /*background-color: rgb(121, 238, 228);*/
-    /*background: linear-gradient(to top, #a8ff78, #78ffd6);*/
     width: 100%;
     height: 100%;
 }
@@ -75,8 +66,6 @@ h1{
     color: rgb(48, 48, 58);
     text-align: center;
     text-decoration-line: underline;
-    /*font-family: 'Open Sans', sans-serif;
-    font-weight: bold;*/
     font-family: 'Baloo Thambi 2', cursive;
     font-size: 3.7rem;
     padding: 1rem;
@@ -93,10 +82,8 @@ h2{
     transition: all 0.5s;
 }
 
-/* SASS - Aplicando Operaciones*/
 h2:hover{
     font-size: $h2size * 1.10;
-
 }
 
 h3{
@@ -134,7 +121,6 @@ h3{
         justify-content: center;
         justify-items: center;
         padding: 3rem;
-        
     }
 
     .experiencias__descripcion h3{
@@ -177,7 +163,6 @@ ul{
 }
 
 footer{
-    /*background: linear-gradient(to top, #00c9ff, #92fe9d);*/
     background: linear-gradient(to bottom, #fceabb, #f8b500);
     text-align: center;
     width: 100%;
@@ -213,7 +198,6 @@ span{
 
 form{
     display: flex;
-    /*background-color: rgb(133, 124, 124);*/
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -257,13 +241,8 @@ form{
         align-content: center;
         padding: 0.5rem;
         margin: 0.5rem;
-
     }
-
-    
 }
-
-
 /* -----------------Paginas Paises----------------------------*/
 
 .paises{
@@ -346,7 +325,6 @@ iframe{
         margin: 0.5rem;
     }
 }
-
 
 .paises p{
     text-align: center;
@@ -492,7 +470,6 @@ article{
         padding: 1.5rem;  
     }
 }
-
 
 .seccionrecomendaciones img{
     width: 3rem;

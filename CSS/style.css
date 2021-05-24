@@ -13,7 +13,6 @@ html {
   box-sizing: border-box; }
 
 header {
-  /*background: linear-gradient(to top, #74ebd5, #acb6e5);*/
   background: linear-gradient(to top, #fceabb, #f8b500);
   display: flex;
   justify-content: space-between;
@@ -29,17 +28,13 @@ header {
 
 nav {
   color: #393264;
-  /*font-family: 'Yantramanav', sans-serif;
-    font-style: normal;
-    font-weight: 1000;*/
   font-family: 'Overlock', cursive;
   font-weight: 900;
   font-style: normal; }
 
 nav ul {
   display: flex;
-  list-style-type: none;
-  /*margin: 30px;*/ }
+  list-style-type: none; }
 
 nav ul li {
   margin: 15px 0;
@@ -52,8 +47,6 @@ nav ul li {
 
 main {
   background-color: #f2f3e9;
-  /*background-color: rgb(121, 238, 228);*/
-  /*background: linear-gradient(to top, #a8ff78, #78ffd6);*/
   width: 100%;
   height: 100%; }
 
@@ -61,8 +54,6 @@ h1 {
   color: #30303a;
   text-align: center;
   text-decoration-line: underline;
-  /*font-family: 'Open Sans', sans-serif;
-    font-weight: bold;*/
   font-family: 'Baloo Thambi 2', cursive;
   font-size: 3.7rem;
   padding: 1rem; }
@@ -75,7 +66,6 @@ h2 {
   padding: 10px 10px 10px 5px;
   transition: all 0.5s; }
 
-/* SASS - Aplicando Operaciones*/
 h2:hover {
   font-size: 3.3rem; }
 
@@ -134,7 +124,6 @@ ul {
   color: #033d27; }
 
 footer {
-  /*background: linear-gradient(to top, #00c9ff, #92fe9d);*/
   background: linear-gradient(to bottom, #fceabb, #f8b500);
   text-align: center;
   width: 100%;
@@ -162,7 +151,6 @@ span {
 
 form {
   display: flex;
-  /*background-color: rgb(133, 124, 124);*/
   justify-content: center;
   justify-items: center;
   align-items: center;
