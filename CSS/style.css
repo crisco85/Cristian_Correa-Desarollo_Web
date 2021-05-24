@@ -91,6 +91,7 @@ h3 {
   height: 55vh; }
 
 .experiencias .experiencias__imagen {
+  align-content: center;
   align-items: center;
   justify-items: center;
   justify-content: center;
@@ -264,7 +265,6 @@ iframe {
   align-content: center;
   align-items: center;
   font-size: 1.2rem;
-  font-family: cursive;
   color: #172c2c;
   font-weight: 400;
   margin: 2rem;
@@ -302,7 +302,6 @@ article {
 .continentes p {
   text-align: center;
   font-size: 1.2rem;
-  font-family: cursive;
   color: #172c2c;
   font-weight: 400;
   margin: 2rem; }
@@ -343,7 +342,6 @@ article {
 .ciudades p {
   text-align: center;
   font-size: 1.2rem;
-  font-family: cursive;
   color: #172c2c;
   font-weight: 400;
   margin: 2rem; }
@@ -371,7 +369,6 @@ article {
 .experiencia p {
   text-align: center;
   font-size: 1.2rem;
-  font-family: cursive;
   color: #172c2c;
   font-weight: 400;
   margin: 2.5rem;
